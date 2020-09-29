@@ -1,0 +1,174 @@
+@media screen and (max-width: 768px) {
+
+    /*  */
+    /* Home Section */
+    /*  */
+    #navbar {
+        height: 100px;    
+    }
+
+    #home #navbar > .flex-row {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    #burger-container input,
+    #burger-container label {
+        display: none;
+    }
+
+    #burger-container {
+        margin: 0;
+    }
+
+    #home #navbar #burger-container .menu {
+        display: inline-block;
+        opacity: 1;
+        transform: translateX(0px);
+        padding: 10px;
+    }
+
+    #home #navbar #burger-container .menu > a {
+        padding: 5px;
+    }
+
+    .menu .search {
+        display: inline-block;
+    }
+
+    /*  */
+    /* What-we-do Section */
+    /*  */
+    #what-we-do .logo a img {
+        margin: 10px;
+    }
+
+    /*  */
+    /* Who-we-are Section */
+    /*  */
+    #people {
+        flex-direction: column;
+    }
+    
+    #people .photo {
+        width: 50%;
+    }
+
+    #people .flex-item {
+        flex: none;
+    }
+
+    /*  */
+    /* Events Section */
+    /*  */
+    #ongoing-events > .flex-column {
+        flex: 100%;
+        margin: 20px 75px;
+    }
+
+    #ongoing-events > .flex-column > .flex-column {
+        width: 100%;
+    }
+    
+    #ongoing-events .photo {
+        height: 100%;
+    }
+
+    /*  */
+    /* Blog Section */
+    /*  */
+    #blog .container > .flex-row-img {
+        flex-direction: column;
+    }
+
+    /*  */
+    /* Contact Section */
+    /*  */
+    #contact .container > .flex-row-img {
+        flex-direction: column;
+    }
+    
+    /*  */
+    /* Slideshow Section */
+    /*  */
+    #slideshow .flex-row-img > .flex-column {
+        flex: 100%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    /*  */
+    /* Home Section */
+    /*  */
+    #navbar {
+        height: auto;
+    }
+
+    #navbar .logo img {
+        margin: 2.5px 10px;
+    }
+
+    #home #navbar .flex-row > .flex-row:first-child {
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    #burger-container label {
+        display: block;
+        position: absolute;
+        top: 8px;
+        right: 10px;
+    }
+
+    #home #navbar #burger-container .menu {
+        height: 0;
+        opacity: 0;
+        transform: translateY(-500px);
+        padding: 0;
+        transition: all 0.2s ease-out;
+    }
+
+    #home #navbar #burger-container .menu > a {
+        display: block;
+        width: 100%;
+    }
+
+    #home #navbar #burger-container input#burger-menu:checked ~ div.menu {
+        height: 100%;
+        opacity: 1;
+        transform: translateX(0);
+        transition: transform 0.4s ease-in, opacity 1s ease-in;
+    }
+
+    #burger-container .menu a {
+        margin: 5px 0;
+    }
+
+    .search i {
+        margin: 5px 0;
+    }
+
+    /*  */
+    /* Who-we-are Section */
+    /*  */    
+    #people .photo {
+        width: 70%;
+    }
+
+    #people .flex-item {
+        flex: none;
+    }
+
+    /*  */
+    /* Events Section */
+    /*  */
+    .date {
+        width: 75%;
+    }
+
+    #ongoing-events > .flex-column {
+        margin: 20px 50px;
+    }
+}
