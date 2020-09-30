@@ -49,8 +49,8 @@
 # Toolbox
 
 <p align="">
-    <img src="https://github.com/tomaszplewka/03_student_chapter/blob/master/imgs/html5.svg" width="50" alt="html5" >
-    <img src="https://github.com/tomaszplewka/03_student_chapter/blob/master/imgs/css3.svg" width="50" alt="css3" >
+    <img src="https://github.com/tomaszplewka/03_student_chapter/blob/master/imgs/html5.svg" width="100" alt="html5" >
+    <img src="https://github.com/tomaszplewka/03_student_chapter/blob/master/imgs/css3.svg" width="72" alt="css3" >
 </p>
 
 # Usage
