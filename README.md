@@ -21,7 +21,7 @@
 
 # Description 
 
-**Example of Student Chapter website**
+**Example of a Student Chapter website**
 
 - [x] Single-Page Project
 - [x] Responsive Website Design
