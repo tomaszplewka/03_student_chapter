@@ -31,19 +31,19 @@
 + Desktop :desktop_computer:
     
 <p align="center">
-    <img src="https://github.com/tomaszplewka/03_student_chapter/blob/master/gifs/studentChapter_desktop-min.gif" width="600" alt="desktop">
+    <img src="https://github.com/tomaszplewka/03_student_chapter/blob/master/gifs/studentChapter_desktop-min.gif" width="700" alt="desktop">
 </p>
 
 + Tablet :computer:
 
 <p align="center">
-    <img src="https://github.com/tomaszplewka/03_student_chapter/blob/master/gifs/studentChapter_tablet-min.gif" width="400" alt="tablet">
+    <img src="https://github.com/tomaszplewka/03_student_chapter/blob/master/gifs/studentChapter_tablet-min.gif" width="350" alt="tablet">
 </p>
 
 + Mobile :iphone:
 
 <p align="center">
-    <img src="https://github.com/tomaszplewka/03_student_chapter/blob/master/gifs/studentChapter_mobile-min.gif" width="300" alt="mobile">
+    <img src="https://github.com/tomaszplewka/03_student_chapter/blob/master/gifs/studentChapter_mobile-min.gif" width="250" alt="mobile">
 </p>
 
 # Toolbox
